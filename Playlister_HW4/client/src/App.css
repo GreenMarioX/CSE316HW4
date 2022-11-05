@@ -282,6 +282,12 @@ input {
   font-family: var(--font-primary);
 }
 
+span {
+  font-weight: bolder;
+  font-style: italic;
+}
+
+
 .modal.is-visible {
   visibility: visible;
   opacity: 1;
