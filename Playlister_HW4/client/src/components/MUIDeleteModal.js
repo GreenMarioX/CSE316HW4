@@ -41,7 +41,7 @@ export default function MUIDeleteModal() {
                         Delete the <span>{name}</span> Play List?
                     </Typography>
                 </Box>
-                <Box height={'30px'}></Box>
+                <Box height={'2.5rem'}></Box>
                 <Box>
                     <Button
                         variant='contained'
