@@ -58,7 +58,7 @@ export default function MUIEditSongModal() {
         >
             <Box sx={style}>
             <Box>
-                    <Typography variant='h4'>
+                    <Typography variant='h6'>
                         Edit Song
                     </Typography>
                 </Box>
@@ -94,13 +94,13 @@ export default function MUIEditSongModal() {
                         <Button
                             type='submit'
                             variant='contained'
-                            sx={{fontSize: '1.0rem'}}
+                            sx={{fontSize: '1.5rem'}}
                         >
                             Confirm
                         </Button>
                         <Button
                             variant='contained'
-                            sx={{float: 'right', fontSize: '1.0rem'}}
+                            sx={{float: 'right', fontSize: '1.5rem'}}
                             onClick={handleCancelEditSong}
                         >
                             Cancel
