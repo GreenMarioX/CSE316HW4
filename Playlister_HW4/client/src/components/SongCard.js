@@ -63,7 +63,8 @@ function SongCard(props) {
             <a
                 id={'song-' + index + '-link'}
                 className="song-link"
-                href={"https://www.youtube.com/watch?v=" + song.youTubeId}>
+                href={"https://www.youtube.com/watch?v=" + song.youTubeId}
+                >
                 {song.title} by {song.artist}
             </a>
             <IconButton
